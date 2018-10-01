@@ -51,7 +51,7 @@ text {
   pointer-events: none;
   text-shadow: 0 1px 0 #ffffff, 1px 0 0 #ffffff, 0 -1px 0 #ffffff, -1px 0 0 #ffffff;
 }
-.ledgend {
+.legend {
   font-family: sans-serif;
   background: white;
   border: 1px black solid;
@@ -61,17 +61,17 @@ text {
   top: 15px;
   left: 15px;
 }
-.ledgend .link {
+.legend .link {
   color: blue;
 }
-.ledgend .link {
+.legend .link {
   color: blue;
 }
-.ledgend .embed {
+.legend .embed {
   color: grey;
 }
-.ledgend .reference,
-.ledgent .filter {
+.legend .reference,
+.legent .filter {
   color: lightgrey;
 }
 body > svg > g:nth-child(3) > circle:nth-child(1) {
