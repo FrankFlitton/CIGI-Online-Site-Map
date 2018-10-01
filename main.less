@@ -12,6 +12,12 @@ body {
     background: -webkit-linear-gradient(top, #feffff 0%, #f7f7f7 100%);
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #feffff 0%, #f7f7f7 100%);
+    padding: 0;
+    margin: 0;
+}
+svg {
+    width: 100vw;
+    height: 100vh;
 }
 
 .link {
@@ -27,8 +33,8 @@ body {
     fill: @nofollow;
 }
 
-#embed { 
-    fill: @embed; 
+#embed {
+    fill: @embed;
 }
 
 #reference {
@@ -67,7 +73,7 @@ text {
     text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
 }
 
-.ledgend {
+.legend {
     font-family: sans-serif;
     background: white;
     border: 1px black solid;
@@ -78,19 +84,19 @@ text {
     left: 15px;
 }
 
-.ledgend .link {
+.legend .link {
     color: @link;
 }
 
-.ledgend .link {
+.legend .link {
     color: @nofollow;
 }
 
-.ledgend .embed {
+.legend .embed {
     color: @embed;
 }
 
-.ledgend .reference, .ledgent .filter {
+.legend .reference, .ledgent .filter {
     color: @reference;
 }
 
