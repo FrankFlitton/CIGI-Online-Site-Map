@@ -71,7 +71,7 @@ text {
   color: grey;
 }
 .legend .reference,
-.legent .filter {
+.legend .filter {
   color: lightgrey;
 }
 body > svg > g:nth-child(3) > circle:nth-child(1) {
